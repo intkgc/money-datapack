@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Вы перевели "},{"score":{"name":"@s","objective":"banknote"},"color":"gold"},{"text":" клинкоинов", "color": "aqua"}, {"text": " в бумажный вид"}]

@@ -9,8 +9,8 @@
 Для перевода коинов необходимо ввести 3 команды:
 
 ```mcfunction
-trigger pay_id $id$
-trigger pay_amount $amount$
+trigger pay_id set $id$
+trigger pay_amount set $amount$
 trigger pay
 ```
 Где `$id$` айди игрока получателя, а `$amount$` сумма перевода 
@@ -21,7 +21,7 @@ trigger pay
 Для получения банкноты нужно ввести команду:
 
 ```mcfunction
-trigger banknote $x$
+trigger banknote set $x$
 ```
 Где `$x$` номинал банкноты (доступно 10, 50, 100, 200, 500 и 1000)
 

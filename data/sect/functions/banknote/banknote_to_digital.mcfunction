@@ -1,9 +1,3 @@
-##
- # banknote_to_digital.mcfunction
- # 
- #
- # Created by .
-##
 function sect:banknote/counter
 clear @s paper{Tags:["banknote"]}
 scoreboard players operation @s money += @s banknotes

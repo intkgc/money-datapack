@@ -1,9 +1,3 @@
-##
- # loop.mcfunction
- # 
- #
- # Created by .
-##
 scoreboard players enable @a pay_id
 scoreboard players enable @a pay_amount
 scoreboard players enable @a pay

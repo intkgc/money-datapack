@@ -1,10 +1,3 @@
-##
- # init.mcfunction
- # 
- #
- # Created by .
-##
-
 #Триггеры
 scoreboard objectives add pay_id trigger
 scoreboard objectives add pay_amount trigger
@@ -18,6 +11,7 @@ scoreboard objectives add ID dummy
 scoreboard objectives add transaction dummy
 scoreboard objectives add const dummy
 scoreboard objectives add banknotes dummy
+
 #Шиза
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 
